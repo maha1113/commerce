@@ -55,7 +55,7 @@
 							<tbody>
 								<tr class="table-body-row">
 									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-									<td class="product-image"><img src="assets/img/products/product-img-1.jpg" alt=""></td>
+									<td class="product-image"><img src="{{ asset('site2assets/assets/img/products/product-img-1.jpg') }}" alt=""></td>
 									<td class="product-name">Strawberry</td>
 									<td class="product-price">$85</td>
 									<td class="product-quantity"><input type="number" placeholder="0"></td>
@@ -63,7 +63,7 @@
 								</tr>
 								<tr class="table-body-row">
 									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-									<td class="product-image"><img src="assets/img/products/product-img-2.jpg" alt=""></td>
+									<td class="product-image"><img src="{{ asset('site2assets/assets/img/products/product-img-2.jpg') }}" alt=""></td>
 									<td class="product-name">Berry</td>
 									<td class="product-price">$70</td>
 									<td class="product-quantity"><input type="number" placeholder="0"></td>
@@ -71,7 +71,7 @@
 								</tr>
 								<tr class="table-body-row">
 									<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-									<td class="product-image"><img src="assets/img/products/product-img-3.jpg" alt=""></td>
+									<td class="product-image"><img src="{{ asset('site2assets/assets/img/products/product-img-3.jpg') }}" alt=""></td>
 									<td class="product-name">Lemon</td>
 									<td class="product-price">$35</td>
 									<td class="product-quantity"><input type="number" placeholder="0"></td>
@@ -107,8 +107,8 @@
 							</tbody>
 						</table>
 						<div class="cart-buttons">
-							<a href="cart.html" class="boxed-btn">Update Cart</a>
-							<a href="checkout.html" class="boxed-btn black">Check Out</a>
+							<a href="{{ route('site2.cart') }}" class="boxed-btn">Update Cart</a>
+							<a href="{{ route('site2.checkout') }}" class="boxed-btn black">Check Out</a>
 						</div>
 					</div>
 
@@ -134,19 +134,19 @@
 				<div class="col-lg-12">
 					<div class="logo-carousel-inner">
 						<div class="single-logo-item">
-							<img src="assets/img/company-logos/1.png" alt="">
+							<img src="{{ asset('site2assets/assets/img/company-logos/1.png') }}" alt="">
 						</div>
 						<div class="single-logo-item">
-							<img src="assets/img/company-logos/2.png" alt="">
+							<img src="{{ asset('site2assets/assets/img/company-logos/2.png') }}" alt="">
 						</div>
 						<div class="single-logo-item">
-							<img src="assets/img/company-logos/3.png" alt="">
+							<img src="{{ asset('site2assets/assets/img/company-logos/3.png') }}" alt="">
 						</div>
 						<div class="single-logo-item">
-							<img src="assets/img/company-logos/4.png" alt="">
+							<img src="{{ asset('site2assets/assets/img/company-logos/4.png') }}" alt="">
 						</div>
 						<div class="single-logo-item">
-							<img src="assets/img/company-logos/5.png" alt="">
+							<img src="{{ asset('site2assets/assets/img/company-logos/5.png') }}" alt="">
 						</div>
 					</div>
 				</div>

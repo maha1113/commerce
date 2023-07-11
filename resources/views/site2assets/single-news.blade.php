@@ -59,7 +59,7 @@
 							<div class="comment-list">
 								<div class="single-comment-body">
 									<div class="comment-user-avater">
-										<img src="assets/img/avaters/avatar1.png" alt="">
+										<img src="{{ asset('site2assets/assets/img/avaters/avatar1.png') }}" alt="">
 									</div>
 									<div class="comment-text-body">
 										<h4>Jenny Joe <span class="comment-date">Aprl 26, 2020</span> <a href="#">reply</a></h4>
@@ -67,7 +67,7 @@
 									</div>
 									<div class="single-comment-body child">
 										<div class="comment-user-avater">
-											<img src="assets/img/avaters/avatar3.png" alt="">
+											<img src="{{ asset('site2assets/assets/img/avaters/avatar3.png') }}" alt="">
 										</div>
 										<div class="comment-text-body">
 											<h4>Simon Soe <span class="comment-date">Aprl 27, 2020</span> <a href="#">reply</a></h4>
@@ -77,7 +77,7 @@
 								</div>
 								<div class="single-comment-body">
 									<div class="comment-user-avater">
-										<img src="assets/img/avaters/avatar2.png" alt="">
+										<img src="{{ asset('site2assets/assets/img/avaters/avatar2.png') }}" alt="">
 									</div>
 									<div class="comment-text-body">
 										<h4>Addy Aoe <span class="comment-date">May 12, 2020</span> <a href="#">reply</a></h4>
@@ -106,32 +106,32 @@
 						<div class="recent-posts">
 							<h4>Recent Posts</h4>
 							<ul>
-								<li><a href="single-news.html">You will vainly look for fruit on it in autumn.</a></li>
-								<li><a href="single-news.html">A man's worth has its season, like tomato.</a></li>
-								<li><a href="single-news.html">Good thoughts bear good fresh juicy fruit.</a></li>
-								<li><a href="single-news.html">Fall in love with the fresh orange</a></li>
-								<li><a href="single-news.html">Why the berries always look delecious</a></li>
+								<li><a href="{{ route('site2.single.news') }}">You will vainly look for fruit on it in autumn.</a></li>
+								<li><a href="{{ route('site2.single.news') }}">A man's worth has its season, like tomato.</a></li>
+								<li><a href="{{ route('site2.single.news') }}">Good thoughts bear good fresh juicy fruit.</a></li>
+								<li><a href="{{ route('site2.single.news') }}">Fall in love with the fresh orange</a></li>
+								<li><a href="{{ route('site2.single.news') }}">Why the berries always look delecious</a></li>
 							</ul>
 						</div>
 						<div class="archive-posts">
 							<h4>Archive Posts</h4>
 							<ul>
-								<li><a href="single-news.html">JAN 2019 (5)</a></li>
-								<li><a href="single-news.html">FEB 2019 (3)</a></li>
-								<li><a href="single-news.html">MAY 2019 (4)</a></li>
-								<li><a href="single-news.html">SEP 2019 (4)</a></li>
-								<li><a href="single-news.html">DEC 2019 (3)</a></li>
+								<li><a href="{{ route('site2.single.news') }}">JAN 2019 (5)</a></li>
+								<li><a href="{{ route('site2.single.news') }}">FEB 2019 (3)</a></li>
+								<li><a href="{{ route('site2.single.news') }}">MAY 2019 (4)</a></li>
+								<li><a href="{{ route('site2.single.news') }}">SEP 2019 (4)</a></li>
+								<li><a href="{{ route('site2.single.news') }}">DEC 2019 (3)</a></li>
 							</ul>
 						</div>
 						<div class="tag-section">
 							<h4>Tags</h4>
 							<ul>
-								<li><a href="single-news.html">Apple</a></li>
-								<li><a href="single-news.html">Strawberry</a></li>
-								<li><a href="single-news.html">BErry</a></li>
-								<li><a href="single-news.html">Orange</a></li>
-								<li><a href="single-news.html">Lemon</a></li>
-								<li><a href="single-news.html">Banana</a></li>
+								<li><a href="{{ route('site2.single.news') }}">Apple</a></li>
+								<li><a href="{{ route('site2.single.news') }}">Strawberry</a></li>
+								<li><a href="{{ route('site2.single.news') }}">BErry</a></li>
+								<li><a href="{{ route('site2.single.news') }}">Orange</a></li>
+								<li><a href="{{ route('site2.single.news') }}">Lemon</a></li>
+								<li><a href="{{ route('site2.single.news') }}">Banana</a></li>
 							</ul>
 						</div>
 					</div>
@@ -148,19 +148,19 @@
 				<div class="col-lg-12">
 					<div class="logo-carousel-inner">
 						<div class="single-logo-item">
-							<img src="assets/img/company-logos/1.png" alt="">
+							<img src="{{ asset('site2assets/assets/img/company-logos/1.png') }}" alt="">
 						</div>
 						<div class="single-logo-item">
-							<img src="assets/img/company-logos/2.png" alt="">
+							<img src="{{ asset('site2assets/assets/img/company-logos/2.png') }}" alt="">
 						</div>
 						<div class="single-logo-item">
-							<img src="assets/img/company-logos/3.png" alt="">
+							<img src="{{ asset('site2assets/assets/img/company-logos/3.png') }}" alt="">
 						</div>
 						<div class="single-logo-item">
-							<img src="assets/img/company-logos/4.png" alt="">
+							<img src="{{ asset('site2assets/assets/img/company-logos/4.png') }}" alt="">
 						</div>
 						<div class="single-logo-item">
-							<img src="assets/img/company-logos/5.png" alt="">
+							<img src="{{ asset('site2assets/assets/img/company-logos/5.png') }}" alt="">
 						</div>
 					</div>
 				</div>

@@ -34,6 +34,7 @@ require __DIR__.'/auth.php';
 
 Route::prefix('')->name('site2.')->group(function(){
     Route::get('/',[Site2Controller::class, 'index'])->name('index');
+    Route::get('/not/found',[Site2Controller::class, 'notfound'])->name('not.found');
     Route::get('/about',[Site2Controller::class, 'about'])->name('about');
     Route::get('/cart',[Site2Controller::class, 'cart'])->name('cart');
     Route::get('/checkout',[Site2Controller::class, 'checkout'])->name('checkout');

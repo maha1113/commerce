@@ -10,6 +10,12 @@ class Site2Controller extends Controller
         return view('site2assets.index');
     }
 
+    public function notfound(){
+        return view('site2assets.404');
+    }
+
+
+
     public function about(){
        return view('site2assets.about');
     }
@@ -44,7 +50,7 @@ class Site2Controller extends Controller
      }
 
      public function single(){
-        return view('site2assets.single');
+        return view('site2assets.single-news');
      }
 
      public function singlee(){
