@@ -1,7 +1,10 @@
 <?php
 
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Site2Controller;
+use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -45,3 +48,9 @@ Route::prefix('')->name('site2.')->group(function(){
     Route::get('/single/news',[Site2Controller::class, 'single'])->name('single.news');
     Route::get('/single/product',[Site2Controller::class, 'singlee'])->name('single.product');
    });
+Route::prefix('admin')->name('admin.')->group(function(){
+    Route::resource('categories', CategoryController::class);
+    Route::resource('teams', TeamController::class);
+});
+
+

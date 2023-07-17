@@ -85,7 +85,7 @@
 				<div class="col-lg-4 col-md-6 text-center">
 					<div class="single-product-item">
 						<div class="product-image">
-							<a href="{{ route('site2.single.product') }}"><img src="assets/img/products/product-img-1.jpg" alt=""></a>
+							<a href="{{ route('site2.single.product') }}"><img src="{{ asset('site2assets/assets/img/products/product-img-1.jpg') }}" alt=""></a>
 						</div>
 						<h3>Strawberry</h3>
 						<p class="product-price"><span>Per Kg</span> 85$ </p>
@@ -95,7 +95,7 @@
 				<div class="col-lg-4 col-md-6 text-center">
 					<div class="single-product-item">
 						<div class="product-image">
-							<a href="{{ route('site2.single.product') }}"><img src="assets/img/products/product-img-2.jpg" alt=""></a>
+							<a href="{{ route('site2.single.product') }}"><img src="{{ asset('site2assets/assets/img/products/product-img-2.jpg') }}" alt=""></a>
 						</div>
 						<h3>Berry</h3>
 						<p class="product-price"><span>Per Kg</span> 70$ </p>
@@ -105,7 +105,7 @@
 				<div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3 text-center">
 					<div class="single-product-item">
 						<div class="product-image">
-							<a href="{{ route('site2.single.product') }}"><img src="assets/img/products/product-img-3.jpg" alt=""></a>
+							<a href="{{ route('site2.single.product') }}"><img src="{{ asset('site2assets/assets/img/products/product-img-3.jpg') }}" alt=""></a>
 						</div>
 						<h3>Lemon</h3>
 						<p class="product-price"><span>Per Kg</span> 35$ </p>
