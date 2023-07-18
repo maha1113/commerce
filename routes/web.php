@@ -2,10 +2,14 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\ChangeLangController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Site2Controller;
 use App\Http\Controllers\TeamController;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
+use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +39,7 @@ Route::middleware('auth')->group(function () {
 require __DIR__.'/auth.php';
 
 
-Route::prefix('')->name('site2.')->group(function(){
+Route::prefix(LaravelLocalization::setLocale())->name('site2.')->group(function(){
     Route::get('/',[Site2Controller::class, 'index'])->name('index');
     Route::get('/not/found',[Site2Controller::class, 'notfound'])->name('not.found');
     Route::get('/about',[Site2Controller::class, 'about'])->name('about');
@@ -48,9 +52,11 @@ Route::prefix('')->name('site2.')->group(function(){
     Route::get('/single/news',[Site2Controller::class, 'single'])->name('single.news');
     Route::get('/single/product',[Site2Controller::class, 'singlee'])->name('single.product');
    });
-Route::prefix('admin')->name('admin.')->group(function(){
+Route::prefix(LaravelLocalization::setLocale() . '/admin')->name('admin.')->group(function(){
     Route::resource('categories', CategoryController::class);
     Route::resource('teams', TeamController::class);
 });
 
+
+Route::get('change-language', [ChangeLangController::class, 'changeLang'] )->name('change-language');
 

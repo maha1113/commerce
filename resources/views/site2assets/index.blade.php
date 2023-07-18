@@ -29,8 +29,8 @@
 							<p class="subtitle">Fresh & Organic</p>
 							<h1>Delicious Seasonal Fruits</h1>
 							<div class="hero-btns">
-								<a href="{{ route('site2.shop') }}" class="boxed-btn">Fruit Collection</a>
-								<a href="{{ route('site2.contact') }}" class="bordered-btn">Contact Us</a>
+								<a href="{{ route('site2.shop') }}" class="boxed-btn">{{ __('app.fruit collection') }}</a>
+								<a href="{{ route('site2.contact') }}" class="bordered-btn">{{ __('app.contact us') }}</a>
 							</div>
 						</div>
 					</div>
@@ -233,7 +233,7 @@
 						<h2>We are <span class="orange-text">Fruitkha</span></h2>
 						<p>Etiam vulputate ut augue vel sodales. In sollicitudin neque et massa porttitor vestibulum ac vel nisi. Vestibulum placerat eget dolor sit amet posuere. In ut dolor aliquet, aliquet sapien sed, interdum velit. Nam eu molestie lorem.</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facilis illo repellat veritatis minus, et labore minima mollitia qui ducimus.</p>
-						<a href="{{ route('site2.about') }}" class="boxed-btn mt-4">know more</a>
+						<a href="{{ route('site2.about') }}" class="boxed-btn mt-4">{{ __('app.know more') }}</a>
 					</div>
 				</div>
 			</div>
@@ -246,7 +246,7 @@
     	<div class="container">
         	<h3>December sale is on! <br> with big <span class="orange-text">Discount...</span></h3>
             <div class="sale-percent"><span>Sale! <br> Upto</span>50% <span>off</span></div>
-            <a href="{{ route('site2.shop') }}" class="cart-btn btn-lg">Shop Now</a>
+            <a href="{{ route('site2.shop') }}" class="cart-btn btn-lg">{{ __('app.shop now') }}</a>
         </div>
     </section>
 	<!-- end shop banner -->
@@ -310,7 +310,7 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<a href="{{ route('site2.news') }}" class="boxed-btn">More News</a>
+					<a href="{{ route('site2.news') }}" class="boxed-btn">{{ __('app.more news') }}</a>
 				</div>
 			</div>
 		</div>
@@ -369,11 +369,11 @@
 					<div class="footer-box pages">
 						<h2 class="widget-title">Pages</h2>
 						<ul>
-							<li><a href="{{ route('site2.index') }}">Home</a></li>
-							<li><a href="{{ route('site2.about') }}">About</a></li>
-							<li><a href="{{ route('site2.shop') }}">Shop</a></li>
-							<li><a href="{{ route('site2.news') }}">News</a></li>
-							<li><a href="{{ route('site2.contact') }}">Contact</a></li>
+							<li><a href="{{ route('site2.index') }}">{{ __('app.home') }}</a></li>
+							<li><a href="{{ route('site2.about') }}">{{ __('app.about') }}</a></li>
+							<li><a href="{{ route('site2.shop') }}">{{ __('app.shop') }}</a></li>
+							<li><a href="{{ route('site2.news') }}">{{ __('app.news') }}</a></li>
+							<li><a href="{{ route('site2.contact') }}">{{ __('app.contact') }}</a></li>
 						</ul>
 					</div>
 				</div>

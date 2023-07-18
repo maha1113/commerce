@@ -60,37 +60,37 @@
 						<!-- menu start -->
 						<nav class="main-menu">
 							<ul>
-								<li class="current-list-item"><a href="{{ route('site2.index') }}">Home</a>
+								<li class="current-list-item"><a href="{{ route('site2.index') }}">{{ __('app.home') }}</a>
 									<ul class="sub-menu">
-										<li><a href="{{ route('site2.index') }}">Static Home</a></li>
-										<li><a href="{{ route('site2.index_2') }}">Slider Home</a></li>
+										<li><a href="{{ route('site2.index') }}">{{ __('app.static home') }}</a></li>
+										<li><a href="{{ route('site2.index_2') }}">{{ __('app.slider home') }}</a></li>
 									</ul>
 								</li>
-								<li><a href="{{ route('site2.about') }}">About</a></li>
+								<li><a href="{{ route('site2.about') }}">{{ __('app.about') }}</a></li>
 								<li><a href="#">Pages</a>
 									<ul class="sub-menu">
 										<li><a href="{{ route('site2.not.found') }}">404 page</a></li>
-										<li><a href="{{ route('site2.about') }}">About</a></li>
-										<li><a href="{{ route('site2.cart') }}">Cart</a></li>
-                        				<li><a href="{{ route('site2.checkout') }}">Check Out</a></li>
-										<li><a href="{{ route('site2.contact') }}">Contact</a></li>
-										<li><a href="{{ route('site2.news') }}">News</a></li>
-										<li><a href="{{ route('site2.shop') }}">Shop</a></li>
+										<li><a href="{{ route('site2.about') }}">{{ __('app.about') }}</a></li>
+										<li><a href="{{ route('site2.cart') }}">{{ __('app.cart') }}</a></li>
+                        				<li><a href="{{ route('site2.checkout') }}">{{ __('app.check out') }}</a></li>
+										<li><a href="{{ route('site2.contact') }}">{{ __('app.contact') }}</a></li>
+										<li><a href="{{ route('site2.news') }}">{{ __('app.news') }}</a></li>
+										<li><a href="{{ route('site2.shop') }}">{{ __('app.shop') }}</a></li>
 									</ul>
 								</li>
-								<li><a href="{{ route('site2.news') }}">News</a>
+								<li><a href="{{ route('site2.news') }}">{{ __('app.news') }}</a>
 									<ul class="sub-menu">
-										<li><a href="{{ route('site2.news') }}">News</a></li>
-										<li><a href="{{ route('site2.single.news') }}">Single News</a></li>
+										<li><a href="{{ route('site2.news') }}">{{ __('app.news') }}</a></li>
+										<li><a href="{{ route('site2.single.news') }}">{{ __('app.single news') }}</a></li>
 									</ul>
 								</li>
-								<li><a href="{{ route('site2.contact') }}">Contact</a></li>
-								<li><a href="{{ route('site2.shop') }}">Shop</a>
+								<li><a href="{{ route('site2.contact') }}">{{ __('app.contact') }}</a></li>
+								<li><a href="{{ route('site2.shop') }}">{{ __('app.shop') }}</a>
 									<ul class="sub-menu">
-										<li><a href="{{ route('site2.shop') }}">Shop</a></li>
-										<li><a href="{{ route('site2.checkout') }}">Check Out</a></li>
-										<li><a href="{{ route('site2.single.product') }}">Single Product</a></li>
-										<li><a href="{{ route('site2.cart') }}">Cart</a></li>
+										<li><a href="{{ route('site2.shop') }}">{{ __('app.shop') }}</a></li>
+										<li><a href="{{ route('site2.checkout') }}">{{ __('app.check out') }}</a></li>
+										<li><a href="{{ route('site2.single.product') }}">{{ __('app.single product') }}</a></li>
+										<li><a href="{{ route('site2.cart') }}">{{ __('app.cart') }}</a></li>
 									</ul>
 								</li>
 								<li>
@@ -136,13 +136,13 @@
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box pages">
-						<h2 class="widget-title">Pages</h2>
+						<h2 class="widget-title">{{ __('app.pages') }}</h2>
 						<ul>
-							<li><a href="{{ route('site2.index') }}">Home</a></li>
-							<li><a href="{{ route('site2.about') }}">About</a></li>
-							<li><a href="{{ route('site2.shop') }}">Shop</a></li>
-							<li><a href="{{ route('site2.news') }}">News</a></li>
-							<li><a href="{{ route('site2.contact') }}">Contact</a></li>
+							<li><a href="{{ route('site2.index') }}">{{ __('app.home') }}</a></li>
+							<li><a href="{{ route('site2.about') }}">{{ __('app.about') }}</a></li>
+							<li><a href="{{ route('site2.shop') }}">{{ __('app.shop') }}</a></li>
+							<li><a href="{{ route('site2.news') }}">{{ __('app.news') }}</a></li>
+							<li><a href="{{ route('site2.contact') }}">{{ __('app.contact') }}</a></li>
 						</ul>
 					</div>
 				</div>

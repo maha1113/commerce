@@ -2,9 +2,9 @@
 
 @section('content')
 
-@if (session('flashMessage'))
+{{-- @if (session('flashMessage'))
 <div class="alert alert-success">{{ session('flashMessage') }}</div>
-@endif
+@endif --}}
     <div class="col-12">
         <div class="card">
             <div class="card-header">
@@ -25,7 +25,7 @@
                 @if (session('flashMessage'))
                 <div class="alert alert-success">{{ session('flashMessage') }}</div>
                 @endif
-
+            {{-- @dd( App::getLocale()) --}}
             <!-- /.card-header -->
             <div class="card-body table-responsive p-0">
                 <table class="table table-hover text-nowrap">

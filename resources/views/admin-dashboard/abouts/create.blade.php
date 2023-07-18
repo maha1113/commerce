@@ -17,7 +17,7 @@
             @csrf
             <div class="card-body">
                 <div class="form-group">
-                    <label for="exampleInputtitle">Name_en</label>
+                    <label for="exampleInputtitle">{{ __('app.name_en') }}</label>
                     <input type="text" class="form-control" name="name_en" id="exampleInputtitle" value="{{ old('name_en') }}"  placeholder="title" >
                 </div>
                 @error('name_en')
